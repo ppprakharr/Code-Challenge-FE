@@ -1,0 +1,38 @@
+.rich-text-container h1 {
+    @apply text-4xl font-bold pt-6 pb-2
+}
+
+.rich-text-container h2 {
+    @apply text-3xl font-bold pt-6 pb-2
+}
+
+.rich-text-container h3 {
+    @apply text-2xl font-bold pt-6 pb-2
+}
+
+.rich-text-container h4 {
+    @apply text-xl font-bold pt-6 pb-2
+}
+
+.rich-text-container h5 {
+    @apply text-lg font-bold
+}
+
+.rich-text-container h6 {
+    @apply text-base font-bold
+}
+
+.rich-text-container p {
+    @apply text-base
+}
+
+.rich-text-container a {
+    @apply text-indigo-500 underline
+}
+
+.rich-text-container ul,
+.rich-text-container ol {
+    list-style: disc;
+    margin: 8px, 12px;
+    padding: 0px, 12px;
+}
